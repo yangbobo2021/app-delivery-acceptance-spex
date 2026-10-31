@@ -2,7 +2,7 @@
   "format": 2,
   "org": "yangbobo2021",
   "name": "app-delivery-acceptance",
-  "version": "0.4.12",
+  "version": "0.4.13",
   "description": "Delivery acceptance workflows using native SPEX Player and nested Playbook ports",
   "artifacts": {
     "acceptance-analyze": {
@@ -263,8 +263,8 @@
   "repository": "https://github.com/yangbobo2021/app-delivery-acceptance-spex",
   "x-source": {
     "repository": "https://github.com/yangbobo2021/app-delivery-acceptance",
-    "commit": "36ed54f9d3cb3a80fddc37efd1f921b9da49f9ca",
-    "tree": "2491e379f8dc522bf0c9290237a515813e517fd0",
+    "commit": "36d8aedfc9059cb3369bcd1d8529b73201368b2b",
+    "tree": "f62c54255b3ad0b5d108ffa633f66f08d0435935",
     "skill_files": {
       ".gitignore": "3cd664e295cf03f82a8ae317472402a68ae30167a9123ec691ddee630029172e",
       "README.md": "ac11fdfe14faaf2e3d52f30b35224a9adcc97deb31c24f8a2e31bfd02da343ef",
@@ -284,7 +284,7 @@
       "playbooks/acceptance/contracts/coverage-tool-contract.md": "64cef332007373ede1cce7841d2b92aade30ff0cbb768a8e03c293ffd403029b",
       "playbooks/acceptance/contracts/project-coverage-protocol.md": "ab3e6ffa71469c52cc72fb2d1c6fe74b755ddb993eb56261a5063786e2540752",
       "playbooks/acceptance/contracts/scenario-priority.md": "5a83aca6272a9c7b91c6ef12b38208ee5cddcf34d917e65bd5d069f8da781cc2",
-      "playbooks/acceptance/docs/agent-runtime.md": "b5f870b0ce9ae7c0d1bef8902d035b5f01cd5503c519488cad44fe18bfe24a62",
+      "playbooks/acceptance/docs/agent-runtime.md": "8a4c536da0f89bf755c945e853555af09330df126fa908859934dc30ea833eb4",
       "playbooks/acceptance/docs/analysis-workflow.md": "9276f276f8c99aaa1e6dec4bb3f5178b75f4b9c0f7fd4a0eddefc6e15590cdab",
       "playbooks/acceptance/docs/business-guide.md": "df0f1e2ea30f0cd2e7561fc2aae6e180f8f3697e47a3062e1aa4e30d70c92f89",
       "playbooks/acceptance/docs/case-assessment-workflow.md": "836dcdff544ca26a143f266bb08db6b7e1e67e521bc0c993d7b126e7931fc0b3",
@@ -308,8 +308,8 @@
       "playbooks/acceptance/docs/source-layout.md": "771f08a9a99db2d5c6cccf69de8543d3386b7a7edc711bcc623d17db3534cdf0",
       "playbooks/acceptance/docs/spex-installation.md": "d2885afdf0968afb1375569e6f97934dcdacd63266acd4500d889c76546732a4",
       "playbooks/acceptance/docs/white-box-rules.md": "e84bf56061872ab443567a980ba99cbfc13a1a017ae31969b6010f0942a494b8",
-      "playbooks/acceptance/npm-shrinkwrap.json": "fbed00cddd57801f9dbf41827ea4da352d3e29a981bc9761c881e0cc92cbe0f6",
-      "playbooks/acceptance/package.json": "c4656ba665f4f2a135c4b6ed5d31b314690f625c75c5824bfaec5ba040c31a04",
+      "playbooks/acceptance/npm-shrinkwrap.json": "b535b494b781b72ef2f892e1ad30e874f3b391413c1cb64dd7ca737732f47348",
+      "playbooks/acceptance/package.json": "d4aa209bc1789b4a0ca09992fd685536e4cadb317f5116d58a856a3de473c421",
       "playbooks/acceptance/root.mjs": "c6bec6e509938f3b1b501e1b48dfdf7f3c3cb2d21e4380b59594de2a2a8f8348",
       "playbooks/acceptance/runtime/configuration.mjs": "a767a42d08cfc4c41c8163ba35c61857bfbaebc2b446a74ba320959938df3025",
       "playbooks/acceptance/runtime/dependencies.mjs": "d032f21ad5ce0d3813c1d9c428771fa4df7be43113807cc0096280fed3e7ae0d",
@@ -323,7 +323,7 @@
       "playbooks/acceptance/runtime/role-contract.mjs": "ca68085fcee0499988fde71d5da5668e0c6ec1da27b50eb389ec2f5ec06d1f26",
       "playbooks/acceptance/runtime/session.mjs": "69fb4efc2d86c06893602769eb17246b0b81eb41a4d0aa946c2dc221bc2066f9",
       "playbooks/acceptance/runtime/spex-entry.mjs": "dbf9ab383656f3fa47c673a70850137bf235f9e6c62a83d385e63f43b400637c",
-      "playbooks/acceptance/runtime/spex-skill-cache.mjs": "9de8695c7181cc0819f96df67a55619d9e52427bb9efbca37472c033b601fdc1",
+      "playbooks/acceptance/runtime/spex-skill-cache.mjs": "3b493643b22d9a4384730c5c7d2416d2069feaaaa989a9ff92eb1013710fb994",
       "playbooks/acceptance/runtime/verify-dependencies.mjs": "aa6e808a8b5eb025b811ca755094ac5450efc40e173382a1444411ce76259cfe",
       "playbooks/acceptance/tools/case.mjs": "be3110e0fb5cee17f6a31602cafd2603c5a8176b7a8605dee5bda903d46efe82",
       "playbooks/acceptance/tools/coverage-probes.mjs": "1cfdc9f599ea5931782fbb16ef0bbf9b7cae817214a4fbe7dcebced50add8c83",
