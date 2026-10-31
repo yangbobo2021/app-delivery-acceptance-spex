@@ -1,6 +1,6 @@
 # App Delivery Acceptance — SPEX installation
 
-Generated from [the complete source repository](https://github.com/yangbobo2021/app-delivery-acceptance/tree/36d8aedfc9059cb3369bcd1d8529b73201368b2b), commit `36d8aedfc9059cb3369bcd1d8529b73201368b2b`. Version **0.4.13**. The source commit, tree and Skill file digests are recorded in `meta.yaml` under `x-source`. Development, specs and regression tests remain in the source repository.
+Generated from [the complete source repository](https://github.com/yangbobo2021/app-delivery-acceptance/tree/8ec0c97882ba6a92977b54494329542774248bb4), commit `8ec0c97882ba6a92977b54494329542774248bb4`. Version **0.4.14**. The source commit, tree and Skill file digests are recorded in `meta.yaml` under `x-source`. Development, specs and regression tests remain in the source repository.
 
 In SPEX choose a project → 规程 → 从 Git 添加:
 
