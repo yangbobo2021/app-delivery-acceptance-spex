@@ -1,0 +1,19 @@
+# Skill-local dependencies, install claims and test-fixture caches
+node_modules/
+playbooks/acceptance/.runtime-install.lock.d/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local configuration and OS/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.swp
+*.swo
+
