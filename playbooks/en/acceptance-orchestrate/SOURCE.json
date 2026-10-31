@@ -1,6 +1,6 @@
 {
   "schema": "acceptance-spex-source-v1",
-  "source_version": "0.4.10",
+  "source_version": "0.4.11",
   "files": {
     "README.md": "5d01109d7daa44982ee6c6f6d837ab02d073e0b8d763ca6b1d776267d9b8b35c",
     "bin/build-spex.mjs": "2cf874c3d1a205b0fad41da58ae8c2328d3bc3c8f73a2c6aa07a5d682807c112",
@@ -37,8 +37,8 @@
     "docs/source-layout.md": "771f08a9a99db2d5c6cccf69de8543d3386b7a7edc711bcc623d17db3534cdf0",
     "docs/spex-installation.md": "d2885afdf0968afb1375569e6f97934dcdacd63266acd4500d889c76546732a4",
     "docs/white-box-rules.md": "e84bf56061872ab443567a980ba99cbfc13a1a017ae31969b6010f0942a494b8",
-    "npm-shrinkwrap.json": "3075661016084767ef160a18198533bc70e756373a8bcb7882eb99dfd6c42196",
-    "package.json": "6917f26c456de79355f484eae71e4c86865f94acbb03b1e0cd7bf28398e7c0a4",
+    "npm-shrinkwrap.json": "d990bfc3c4d0fbe8757f1d860459972f5539ad6d4b04d51aeb928017453813d4",
+    "package.json": "eac35117f000e9a8b2d3c32434d00d5c31c279c8d5d1f6f79b1081f9de59e814",
     "root.mjs": "c6bec6e509938f3b1b501e1b48dfdf7f3c3cb2d21e4380b59594de2a2a8f8348",
     "runtime/configuration.mjs": "a767a42d08cfc4c41c8163ba35c61857bfbaebc2b446a74ba320959938df3025",
     "runtime/dependencies.mjs": "d032f21ad5ce0d3813c1d9c428771fa4df7be43113807cc0096280fed3e7ae0d",
@@ -53,7 +53,7 @@
     "runtime/session.mjs": "69fb4efc2d86c06893602769eb17246b0b81eb41a4d0aa946c2dc221bc2066f9",
     "runtime/spex-entry.mjs": "dbf9ab383656f3fa47c673a70850137bf235f9e6c62a83d385e63f43b400637c",
     "runtime/spex-skill-cache.mjs": "9de8695c7181cc0819f96df67a55619d9e52427bb9efbca37472c033b601fdc1",
-    "runtime/verify-dependencies.mjs": "77601ec0c6405aceef0cc7aeb4c9ac92bb85412261e4d7bd073a3e5be243fbf0",
+    "runtime/verify-dependencies.mjs": "aa6e808a8b5eb025b811ca755094ac5450efc40e173382a1444411ce76259cfe",
     "tools/case.mjs": "be3110e0fb5cee17f6a31602cafd2603c5a8176b7a8605dee5bda903d46efe82",
     "tools/coverage-probes.mjs": "1cfdc9f599ea5931782fbb16ef0bbf9b7cae817214a4fbe7dcebced50add8c83",
     "tools/coverage.mjs": "aacee56a25a849e1962dad3166392dc1cbb5b09ba0c05458e4e07a91c0768abc",
