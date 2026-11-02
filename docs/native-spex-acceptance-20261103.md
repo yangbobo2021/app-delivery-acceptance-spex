@@ -1,0 +1,24 @@
+# Native SPEX acceptance — 2026-11-03
+
+The installed Mac SPEX 0.9.0-beta.24 completed the ordinary `/acceptance-orchestrate <Chinese request>` path. No user-authored JSON, task ID, request ID or CLI workflow invocation replaced that entry.
+
+Baseline: `app-delivery-acceptance-benchmark-six`, tag `baseline/2026-10-20-v1`, annotated tag object `2a572587a6d5b19c4fd4b09f0018ef937e336e8d`, peeled commit `be952659c7d93018e26793daf2e58fa8321601f4`. The independent test checkout was `~/test/test-spex-1102`; product and requirement bytes remained unchanged in both checkout and isolated workspace (43 baseline project files in each).
+
+Scope: Python CLI written requirement INV-03, source `projects/python-cli/docs/requirements.md:7`. Fresh acceptance `AT-123e76bf392c12c6` generated two scenes. Only INV-03-S01, “普通成功结果符合 JSON 数据合同”, was formally executed with permanent case `TC-81925336-4613-4e07-b8cf-4a8e6d911ac9`. Real `python -m invoice --input` processing returned `totals={A1:200,B2:30}`, `row_count=3`, exit 0 and empty stderr. Independent result review was `passed`; the case writer and reviewer used different Players. INV-03-S02 remained unexecuted and had no conclusion.
+
+Same-run coverage.py 7.12.0 reported line 34/44 (77.27%) and branch 7/14 (50%) over the three invoice source files; the empty `__init__.py` was recorded as non-executable. The report, raw native data, process receipts, source/adapters and independent review were archived (345 files; archive SHA-256 `14fa2e44388bee5de01a0714fc4fcaca6b330206fa67593d659c921253dbb7cf`). Technical probes and local debugging were kept separate from the one formal scene execution.
+
+Preserved findings and fixes:
+
+- Plain text previously failed at JSON parsing before any role/child call. The native entry now accepts host `cwd`, retains the original text, generates stable native-root/request identities and gives actionable input errors. Legacy JSON remains compatible.
+- Coverage discovery selected a reserved `.acceptance-local` test root. The original directory restriction is now reused before runtime preparation and at explicit coverage handoff; discovery instructions explain valid test directories.
+- Native host cancellation was not reaching the command actor's operation. The package now combines host and actor cancellation signals. An actual official XState command-runtime regression confirms active operations settle on host cancellation.
+- Interrupted coverage preparation was inspected and explicitly superseded through the official recovery entry after all recorded processes/groups were proved stopped. Original claims were moved into `recovery-claims`, not deleted; no unknown operation was replayed. This extension allows coverage inspect/supersede only, never automatic continuation. Old acceptance AT-b88abaf40446b552 was closed with all three scenes unfinished and no product verdict. Its original parent pending journal remains historical evidence.
+- The lifecycle verifier assumed the script was argv[1], which fails for Electron's `env ELECTRON_RUN_AS_NODE=1 Spex entry.mjs` wrapper. It now decodes the package's Node command forms to locate the original binding. A fresh official native preparation passed.
+- The viewer treated an old unowned preparation failure as current work even after completion. It now limits current progress to current ownership/unfinished stages; historical failures remain intact. Synthetic fixtures and the real completed snapshot verify this without changing results.
+
+Actual browser checks opened the final view and its requirement, scene, independent conclusion and execution/review evidence links. The page showed 2 scenes / 1 executed / 1 passed / 1 unexecuted, the same line/branch coverage and no current activity. Screenshots and full native inputs are retained in the local delivery evidence folder; selected screenshot hashes are recorded in DISTRIBUTION-PATCH.json.
+
+A new read-only report was exported through the APP after the progress projection repair, preserving the earlier report. Its receipt records no execution; the frozen snapshot has no active stages, retains 2/1/1/1 statistics and the same coverage, and all declared hashes validate. Direct browser rendering of the local file URL was blocked by the browser URL policy; visual confirmation used the actual live viewer instead.
+
+Limits: one selected scene on this Mac only; no whole-requirement/product/platform pass, no Windows run, no published-source reinstall acceptance. The viewer's aggregate capture-time label remains “not recorded”; the actual execution timestamp is preserved in its receipt. Standard SPEX Player permissions are recorded as prompt-contract authority, with workflow filesystem/evidence guards; native tool-level isolation is not asserted. The original Skill source, SPEX, Playbook and Cligent code were not modified; no main merge, tag, npm or other release was made.

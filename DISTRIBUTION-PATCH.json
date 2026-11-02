@@ -1,0 +1,113 @@
+{
+  "schema": "acceptance-spex-distribution-patch-v1",
+  "base_distribution_commit": "f300b85df437c028544f7f7c79762f5e2a4593c0",
+  "base_source_commit": "c6b27e4d5aeee45ddf0fd9def984bef100683ba6",
+  "base_version": "0.4.15",
+  "patch_origin": "User-authorized direct repair of the installed SPEX test package, transferred after native APP execution, independent review and real browser verification.",
+  "historical_provenance": "Original x-source and SOURCE.json describe the generated base. The file deltas below identify distribution repairs; no upstream source commit is claimed to contain them.",
+  "file_deltas": [
+    {
+      "path": "playbooks/en/acceptance-orchestrate/runtime/node-process.mjs",
+      "base_sha256": "db943eda0e8379cf33632d719323a83780fef62088d4a9e5c112e6c983c77956",
+      "candidate_sha256": "03093c9a431bcec4ad0b0683d050fd3369f9b61cfb31bb3858d9820c090d9dfb"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/coverage/project-input.mjs",
+      "base_sha256": "a0bee7f2d6965d9d4e8000a6be910222b6a21018dceb8d12b55284f4e68e2019",
+      "candidate_sha256": "4412f4740e0816e52acae3f2da454813d9069e9795e7a1909840fa4c30b00455"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/coverage/protocol/lifecycle.mjs",
+      "base_sha256": "26d3d9c781b4300e5bde56aa4a93e5f662b9ab21d32e18f1ecb85ff0a5df1758",
+      "candidate_sha256": "f3c145902e73280f152f5b1ceb11d1fcefe373c8e0c0a66baeefe298b4e9adba"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/coverage/stage.mjs",
+      "base_sha256": "d6c3d2864b45dcd1f31060b127be11a086a965c236e77f6f5c061ce757745009",
+      "candidate_sha256": "72631b34cddaf5c33ad61bf1e5d809443a838a0410579a9ee5c2802f9e243e8b"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/orchestrate/orchestrator.md",
+      "base_sha256": "075ad0102437444045cc084be1d9a90231de20fbd2e36ccc0c206a235ba18b7c",
+      "candidate_sha256": "ceed6e8825851cf6a43f141972b4110a8d0482030595b3e43435a37cc032ec37"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/orchestrate/registry.mjs",
+      "base_sha256": "9f49c6dd56c3dd57fafeec419ed061d8c4458a9e657da3fbef3d5c406f6639cb",
+      "candidate_sha256": "c9e4fe5faafb165ab3d0d114dd8ed2eb1d2897240f5f04de958cd1281441f6fa"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/orchestrate/task.mjs",
+      "base_sha256": "ac3228c45abc03cb94d609b695abd12e5f2de649f2409c942f48b08f571ace3a",
+      "candidate_sha256": "a6b538861c4d1c8375f6146cb0bf30e906630a10589d7227ac666a8d4cb6d804"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/recover/stage.mjs",
+      "base_sha256": "1be1da9b85801b6bfaee41df51ceddd98ccb276d2cb6b10b226a4e66c4542862",
+      "candidate_sha256": "943a166f47bd4a06a5fe8c118289e93a3833cff3de458b112d9375907424640d"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/shared/command.mjs",
+      "base_sha256": "754963b5511136e2a0ff085c1e88c2708777c479739811cda1072ee8b61d5256",
+      "candidate_sha256": "d7d943eaa6159562645fcdf4223a5aa9cb5acde2f30d1d5fab30ea95a62ec74e"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/shared/workspace.mjs",
+      "base_sha256": "149663df2a9411cca5a1a3a9cf9a75620e1c2b992ce85ddc43389a91be696784",
+      "candidate_sha256": "895dbb4e87e542f714193e675ac8d2bd020115287b1ea1603bd95b49d1c0f93d"
+    },
+    {
+      "path": "playbooks/en/acceptance-orchestrate/workflows/view/data.mjs",
+      "base_sha256": "4f2a64575eaea3ee0d86c25560b37769c21e2eadcce546468dc575377a8d4aab",
+      "candidate_sha256": "e703cc3fdd2071a0b4964acdc14a6e4fe71523bac8d0043ed34a5690108d5b0e"
+    }
+  ],
+  "verification": {
+    "client_date": "2026-11-03",
+    "timezone": "Asia/Shanghai",
+    "app": "SPEX 0.9.0-beta.24",
+    "baseline": "be952659c7d93018e26793daf2e58fa8321601f4",
+    "acceptance_id": "AT-123e76bf392c12c6",
+    "scene": "INV-03-S01",
+    "independent_review": "passed",
+    "statistics": {
+      "scenes": 2,
+      "executed": 1,
+      "passed": 1,
+      "not_run": 1
+    },
+    "coverage": {
+      "tool": "coverage.py 7.12.0",
+      "line": {
+        "covered": 34,
+        "total": 44,
+        "pct": 77.27272727272727
+      },
+      "branch": {
+        "covered": 7,
+        "total": 14,
+        "pct": 50
+      },
+      "source_scope": "projects/python-cli/invoice (three files)"
+    },
+    "final_view_consistency": "passed; requirement source, scene, frozen execution/review links, coverage and unexecuted state inspected in real browser",
+    "screenshots": [
+      {
+        "file": "21-final-verified-overview.png",
+        "sha256": "6b75d0e774a4ca7c3e78964f8c77bd688aa431f69941de6604e59f8eec2b2bb6"
+      },
+      {
+        "file": "16-requirement-source.png",
+        "sha256": "558178bb2bf01b6dada4b4a135ca3fb177dc842648d429df6ac24f50bb9c8f33"
+      },
+      {
+        "file": "18-independent-review-links.png",
+        "sha256": "dccb7747b9b8501921f70f43ad7558c62083fcc79e09008472170020d4e73815"
+      },
+      {
+        "file": "20-unexecuted-scope.png",
+        "sha256": "ef966270bdf4e4cc717829e1dd2aaaa7b6100be33395580d2ab3fcc1a39308dd"
+      }
+    ]
+  }
+}
