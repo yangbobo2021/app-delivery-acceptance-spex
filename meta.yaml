@@ -2,7 +2,7 @@
   "format": 2,
   "org": "yangbobo2021",
   "name": "app-delivery-acceptance",
-  "version": "0.4.14",
+  "version": "0.4.15",
   "description": "Delivery acceptance workflows using native SPEX Player and nested Playbook ports",
   "artifacts": {
     "acceptance-analyze": {
@@ -171,8 +171,7 @@
         "acceptance-scenarios",
         "acceptance-source-status",
         "acceptance-start",
-        "acceptance-view",
-        "app-delivery-acceptance"
+        "acceptance-view"
       ]
     },
     "acceptance-project": {
@@ -254,17 +253,14 @@
     },
     "app-delivery-acceptance": {
       "kind": "skill",
-      "language": "en",
-      "requires": [
-        "acceptance-orchestrate"
-      ]
+      "language": "en"
     }
   },
   "repository": "https://github.com/yangbobo2021/app-delivery-acceptance-spex",
   "x-source": {
     "repository": "https://github.com/yangbobo2021/app-delivery-acceptance",
-    "commit": "8ec0c97882ba6a92977b54494329542774248bb4",
-    "tree": "4eb670a207e21651a33323dba8ac265be63753da",
+    "commit": "c6b27e4d5aeee45ddf0fd9def984bef100683ba6",
+    "tree": "af7ea18cc5ffce5003550822588a5361a1652d8d",
     "skill_files": {
       ".gitignore": "3cd664e295cf03f82a8ae317472402a68ae30167a9123ec691ddee630029172e",
       "README.md": "ac11fdfe14faaf2e3d52f30b35224a9adcc97deb31c24f8a2e31bfd02da343ef",
@@ -274,7 +270,7 @@
       "assets/docs/workflow.png": "8518380f3902ad205eaf931939d505b37a5060857e6dc1ea7bc0802010cabe94",
       "assets/docs/workflow.svg": "d77194f8e100bbb08b7f55afd4c5f8b5d73455f0afda05956054a80ced793ce6",
       "playbooks/acceptance/README.md": "5d01109d7daa44982ee6c6f6d837ab02d073e0b8d763ca6b1d776267d9b8b35c",
-      "playbooks/acceptance/bin/build-spex.mjs": "2cf874c3d1a205b0fad41da58ae8c2328d3bc3c8f73a2c6aa07a5d682807c112",
+      "playbooks/acceptance/bin/build-spex.mjs": "a99335184b17f58a2f9f166bc5205fac0144b669ef3653088b8d0a1ae15e320d",
       "playbooks/acceptance/bin/configure.mjs": "a76b28e1e696109480279f91b2b89827b63192c3381fa3415015e7e4284f4885",
       "playbooks/acceptance/contracts/case-discovery-contract.md": "143679ad095d0b1bd540efb9229fbee5d6e889b97fe02cf365cfb6482494bf65",
       "playbooks/acceptance/contracts/case-display-contract.md": "35afdb8faeff059f75629cc6c0c4c9523aa249d1415716fe93b13fa0683f731a",
@@ -306,10 +302,10 @@
       "playbooks/acceptance/docs/runtime-workflow.md": "92d5f452da2e2ff9ed48c6fa7ad418d08eaa81d8d12014c16c57f36933f0f494",
       "playbooks/acceptance/docs/scenario-workflow.md": "54b3d45df2338250c546c3316b2436addfcee65584705f7af93046e63c447bbf",
       "playbooks/acceptance/docs/source-layout.md": "771f08a9a99db2d5c6cccf69de8543d3386b7a7edc711bcc623d17db3534cdf0",
-      "playbooks/acceptance/docs/spex-installation.md": "c50bf0b90a25f1f8be081b0f5539df195b950e491a081c71ceffa3cc80154720",
+      "playbooks/acceptance/docs/spex-installation.md": "6e23acb6be09ff6c7b6f8af3400b6a0790e6cb6c96be8bf930b812e3efe7b42e",
       "playbooks/acceptance/docs/white-box-rules.md": "e84bf56061872ab443567a980ba99cbfc13a1a017ae31969b6010f0942a494b8",
-      "playbooks/acceptance/npm-shrinkwrap.json": "6bcb1024e3b6bd7b45f3fee3e0cd9a077eb30f58c6d69211be62cbf75d2a2ce1",
-      "playbooks/acceptance/package.json": "0c78b109e47b4e6cf256cec48e5181d10289be9313a1140cad5d8d5facfe8a09",
+      "playbooks/acceptance/npm-shrinkwrap.json": "e2cef218d3c34cd3db1f7e2ec2b97e93c83c3dd0c520fe1d65353ef5a69184ef",
+      "playbooks/acceptance/package.json": "fab55955be7e17f4e32c19d3d82af9713009a993982fc14a8940f251dddb5d38",
       "playbooks/acceptance/root.mjs": "c6bec6e509938f3b1b501e1b48dfdf7f3c3cb2d21e4380b59594de2a2a8f8348",
       "playbooks/acceptance/runtime/configuration.mjs": "a767a42d08cfc4c41c8163ba35c61857bfbaebc2b446a74ba320959938df3025",
       "playbooks/acceptance/runtime/dependencies.mjs": "d032f21ad5ce0d3813c1d9c428771fa4df7be43113807cc0096280fed3e7ae0d",
